@@ -2,7 +2,7 @@ import express from "express";
 import router from "./routes/contactRoutes.js";
 import userrouter from "./routes/userRoutes.js";
 import  dotenv from "dotenv";
-import errorHandler from "./middleware/errorhandler.js";
+import errorHandler from "./middleware/errorHandler.js";
 import connectDb from "./config/db.connection.js";
 dotenv.config();
 
