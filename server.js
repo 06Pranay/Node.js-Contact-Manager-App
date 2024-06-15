@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(errorHandler);
 app.use("/api/contacts",router);
 app.use("/api/users",userrouter);
-const port=process.env.PORT;
+const port=process.env.PORT || 4000;
 
 app.listen(port,()=>
 {
